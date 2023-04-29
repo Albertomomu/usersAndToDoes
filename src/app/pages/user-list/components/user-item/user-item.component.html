@@ -1,0 +1,16 @@
+<article class="card">
+  <div class="avatar">
+   <img [src]="userItem.image" [alt]="userItem.firstName">
+  </div>
+  <div class="big-column">
+   <div class="title">
+       {{userItem.firstName}}
+      </div>
+      <div class="description">
+        {{userItem.company.name}}
+      </div>
+  </div>
+  <div class="actions">
+    <span>✏️</span>
+  </div>
+</article>

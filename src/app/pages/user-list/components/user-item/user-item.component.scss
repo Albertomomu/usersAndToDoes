@@ -1,0 +1,31 @@
+.card {
+  align-items: center;
+  box-shadow: 3px 3px 11px 0px rgba(79, 79, 79, 0.25);
+  background: linear-gradient(326deg, rgba(240,245,235,1) 0%, rgba(221,217,227,0.6) 100%);
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+  gap: 1rem;
+  .avatar {
+      border-radius: 100%;
+      border: 1px solid #000;
+      height: 40px;
+      width: 40px;
+      overflow: hidden;
+
+      img {
+          height: 100%;
+          width: 100%;
+      }
+  }
+  .big-column {
+      display: flex;
+      flex: 1;
+      flex-direction: column;
+
+      .description {
+          color: rgba(79, 9, 79, 0.8);
+          font-size: .9rem;
+      }
+  }
+}
