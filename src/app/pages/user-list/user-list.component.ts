@@ -17,7 +17,7 @@ export class UserListComponent {
   }
 
   getUsersList() {
-    this.usersService.getToDoList().subscribe((users) => {
+    this.usersService.getUserList().subscribe((users) => {
       this.userList = users;
       console.log(users);
     });
